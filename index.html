@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prince Patel — Systems Architect &amp; Full-Stack Builder</title>
+  <meta name="description" content="Portfolio of Prince Patel — Full-Stack Software Builder & Systems Architect. Minimalist Neumorphism design system.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- FLOATING NAVIGATION BAR -->
+  <div class="navbar-wrap">
+    <nav class="navbar" aria-label="Main Navigation">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-badge">PP</div>
+        <div class="brand-text">Prince Patel</div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#principles" class="nav-link">Principles</a></li>
+        <li><a href="#projects" class="nav-link">Systems</a></li>
+        <li><a href="#skills" class="nav-link">Stack</a></li>
+        <li><a href="#terminal" class="nav-link">Terminal</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle-btn" class="btn icon-btn" title="Toggle Light/Dark Mode" aria-label="Toggle Theme">
+          <svg class="svg-icon" id="theme-svg" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <a href="#contact" class="btn btn-sm btn-accent">
+          <span>Transmit</span>
+          <svg class="svg-icon" viewBox="0 0 24 24">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Left Column -->
+          <div class="hero-content">
+            <div class="flat-pill-tag">Systems Architecture &amp; Engineering</div>
+
+            <h1 class="hero-title">
+              Curiosity.<br>
+              <span class="hero-title-accent">Engineered.</span>
+            </h1>
+
+            <p class="hero-bio">
+              I build practical digital systems from first principles, specializing in deterministic state machines, full-stack web platforms, and data-intensive backends.
+            </p>
+
+            <!-- Strictly 2 CTAs -->
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-accent">
+                <span>Explore Systems [02]</span>
+                <svg class="svg-icon" viewBox="0 0 24 24">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </a>
+              <button id="copy-email-hero-btn" class="btn btn-primary">
+                <svg class="svg-icon" viewBox="0 0 24 24">
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                </svg>
+                <span>Copy Email</span>
+              </button>
+            </div>
+
+            <!-- Social Links Pill Row -->
+            <div class="hero-socials">
+              <a href="https://github.com/prince312pp" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>GitHub</span>
+                <svg class="svg-icon" viewBox="0 0 24 24">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/prince-patel-b102492b1/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>LinkedIn</span>
+                <svg class="svg-icon" viewBox="0 0 24 24">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+              <a href="https://x.com/PrincePate18399" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <span>Twitter / X</span>
+                <svg class="svg-icon" viewBox="0 0 24 24">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Right Column / Neumorphic Profile Card -->
+          <aside class="hero-console-card">
+            <div class="neu-card">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem;">
+                <div style="font-weight:700; font-size:0.95rem; color:var(--text-primary);">ENGINEERING PROFILE</div>
+                <div class="status-pill">PP / 001</div>
+              </div>
+
+              <div style="background:var(--surface-alt); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:1rem 1.25rem; margin-bottom:1.25rem;">
+                <div class="meta-row">
+                  <span class="meta-label">OPERATOR:</span>
+                  <span class="meta-value">Prince Patel</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">DISCIPLINE:</span>
+                  <span class="meta-value">Information Technology</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">ACADEMIC BASE:</span>
+                  <span class="meta-value">B.Tech IT (JG University)</span>
+                </div>
+              </div>
+
+              <!-- Disciplines Grid -->
+              <div>
+                <div style="font-size:0.8rem; font-family:var(--font-mono); color:var(--text-muted); font-weight:600; text-transform:uppercase;">Core Competencies:</div>
+                <div class="disciplines-grid">
+                  <div class="discipline-item">Frontend Systems</div>
+                  <div class="discipline-item">Backend Services</div>
+                  <div class="discipline-item">Cloud &amp; DevOps</div>
+                  <div class="discipline-item">Data &amp; In-Memory Cache</div>
+                  <div class="discipline-item">Mobile Logistics</div>
+                  <div class="discipline-item">State Machines</div>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
