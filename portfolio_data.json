@@ -1,0 +1,264 @@
+{
+  "personal": {
+    "name": "Prince Patel",
+    "monogram": "PP.",
+    "role": "Full-Stack Software Builder & IT Engineer",
+    "subRole": "Systems Architect • Full-Stack Developer • Problem Solver",
+    "location": "Ahmedabad, Gujarat, India",
+    "timezone": "IST (UTC+05:30)",
+    "email": "prince.patel3628@gmail.com",
+    "status": "Available for Opportunities",
+    "statusBadge": "System Online",
+    "tagline": "I write software where state is deterministic, dependencies are minimal, and failure modes are accounted for.",
+    "heroHeading": {
+      "line1": "Curiosity.",
+      "line2": "Engineered."
+    },
+    "heroDescription": "I build practical digital systems from first principles, specializing in deterministic state machines, full-stack web platforms, and data-intensive backends.",
+    "socials": {
+      "github": "https://github.com/prince312pp",
+      "linkedin": "https://www.linkedin.com/in/prince-patel-b102492b1/",
+      "twitter": "https://x.com/PrincePate18399",
+      "email": "mailto:prince.patel3628@gmail.com"
+    }
+  },
+  "principles": [
+    {
+      "code": "01",
+      "title": "Deterministic State Over Fragile Logic",
+      "statement": "State machines prevent edge-case catastrophes. If an escrow or cutoff condition cannot fail safely, it is not production ready."
+    },
+    {
+      "code": "02",
+      "title": "Speed and Brutal Clarity",
+      "statement": "Zero bloatware. Deliver fast, readable, and functional interfaces that respect the user's computing power and bandwidth."
+    },
+    {
+      "code": "03",
+      "title": "Defensive Data Design",
+      "statement": "Relational integrity for immutable transactions and ledgers; document stores for polymorphic, rapidly shifting manifests."
+    },
+    {
+      "code": "04",
+      "title": "End-to-End Ownership",
+      "statement": "Engineering does not stop at git push. It encompasses CI/CD automation, edge caching, load resilience, and daily monitoring."
+    }
+  ],
+  "worldOrbit": {
+    "caption": "The Engineering Core",
+    "subtitle": "One idea. A world of connections.",
+    "origin": "PP / 001",
+    "labels": [
+      "Frontend",
+      "Backend",
+      "Cloud & DevOps",
+      "Architecture",
+      "Data & Cache",
+      "Mobile Logistics"
+    ]
+  },
+  "projects": [
+    {
+      "id": "sponsorly",
+      "year": "2026",
+      "title": "SPONSORLY",
+      "category": "Creator Economy & Marketplace",
+      "tagline": "Replacing informal sponsorship agreements with escrow-backed milestones and verifiable proof-of-work.",
+      "badge": "Flagship System",
+      "status": "Active Build",
+      "summary": "A full-scale sponsorship marketplace bridging digital creators and commercial brands. Automates brief publishing, bidding, milestone-based escrow locks, and deliverable validation with immutable audit trails.",
+      "metrics": {
+        "metric1": "Escrow Protection",
+        "metric2": "<40ms Queries",
+        "metric3": "WebSockets Engine"
+      },
+      "architecture": "Full-stack marketplace architecture built on Next.js and Node.js with PostgreSQL & Prisma. Redis powers low-latency search caching, live proposal room negotiation channels, and notification queues. A deterministic finite state machine (FSM) regulates campaign progression from brief publication to escrow funding and final audit verification.",
+      "flow": [
+        "Brand Campaign Brief Publish",
+        "Creator Matchmaking & Discovery Query",
+        "Direct Negotiation & Proposal Acceptance",
+        "Milestone Escrow Funding & Contract Lock",
+        "Content Submission & Deliverable Verification",
+        "Automated Payout & Ledger Settlement",
+        "Real-Time Campaign Analytics & ROI Reporting"
+      ],
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "Redis",
+        "Tailwind CSS",
+        "WebSockets"
+      ],
+      "githubUrl": "https://github.com/prince312pp/sponsorly",
+      "demoUrl": "https://github.com/prince312pp/sponsorly"
+    },
+    {
+      "id": "tiffinmitra",
+      "year": "2026",
+      "title": "TIFFINMITRA",
+      "category": "Authentic Meal Marketplace & Logistics",
+      "tagline": "Reliable daily meal delivery coordinated around an immutable 8:00 AM preparation cutoff.",
+      "badge": "Community Logistics",
+      "status": "Prototype Deployed",
+      "summary": "Subscription logistics ecosystem connecting local home-tiffin services with students and professionals. Features interactive calendar pause/resume scheduling, automated kitchen production sheet generation, and cutoff-enforced batching.",
+      "metrics": {
+        "metric1": "8:00 AM Cutoff",
+        "metric2": "Batch Routing",
+        "metric3": "Dual-DB Architecture"
+      },
+      "architecture": "Polyglot backend architecture coupling PostgreSQL for ledger/subscription durability with MongoDB for polymorphic daily menus and regional kitchen profiles. An in-memory Redis scheduler enforces sub-millisecond calendar cutoffs, while Node.js background batch workers aggregate manifests into automated delivery dispatch routes.",
+      "flow": [
+        "Vendor Kitchen Onboarding & Menu Configuration",
+        "Customer Meal Plan Selection & Subscription",
+        "Interactive Delivery Calendar & Scheduling",
+        "Cutoff-Aware Pause / Leave Request Processing",
+        "Daily Production Manifest Batch Aggregation",
+        "Automated Delivery Route Sequencing",
+        "Delivery Confirmation & Ledger Reconciliation"
+      ],
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "React Native",
+        "Node.js",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Docker"
+      ],
+      "githubUrl": "https://github.com/prince312pp/tiffinmitra_prototype",
+      "demoUrl": "https://github.com/prince312pp/tiffinmitra_prototype"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Sponsorly & TiffinMitra",
+      "role": "Founder & Lead Systems Builder",
+      "period": "2025 — Present",
+      "location": "Ahmedabad, India",
+      "type": "Product & Systems Architecture",
+      "description": "Architecting and scaling two independent full-stack platforms from system design to execution: Sponsorly (escrow-driven sponsorship marketplace) and TiffinMitra (subscription food logistics platform).",
+      "points": [
+        "Constructed scalable full-stack services using TypeScript, Next.js, Node.js, and Redis caching layers.",
+        "Devised dual database topologies (PostgreSQL + MongoDB) separating financial ledgers from flexible document stores.",
+        "Created production-grade Docker pipelines ensuring rapid deployment cycles and environment parity."
+      ],
+      "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Redis", "Docker"]
+    },
+    {
+      "company": "Web Engineering Internship",
+      "role": "Frontend Engineering Intern",
+      "period": "May 2024 — Jul 2024",
+      "location": "Remote / Ahmedabad",
+      "type": "Frontend Engineering",
+      "description": "Built resilient, high-speed client-facing interfaces with React and Tailwind CSS. Implemented component-driven design systems and optimized bundle sizes.",
+      "points": [
+        "Decreased initial page load times by 35% through dynamic code splitting, image optimization, and memoized renders.",
+        "Integrated complex RESTful API endpoints with optimistic UI updates and error boundary fallbacks.",
+        "Authored thorough unit and integration test suites improving baseline branch reliability."
+      ],
+      "stack": ["React", "Tailwind CSS", "REST APIs", "Vite", "Jest"]
+    }
+  ],
+  "technicalDna": {
+    "Application & UI": [
+      "React",
+      "Next.js (App Router)",
+      "React Native",
+      "Tailwind CSS",
+      "HTML5 Semantics",
+      "Modern CSS",
+      "Component Systems"
+    ],
+    "Languages & Runtimes": [
+      "TypeScript",
+      "JavaScript (ESNext)",
+      "Node.js",
+      "Python",
+      "SQL",
+      "Bash / Shell"
+    ],
+    "Backend & Services": [
+      "Node.js",
+      "Express.js",
+      "RESTful API Architecture",
+      "WebSocket Real-time Engine",
+      "NextAuth.js",
+      "State Machines"
+    ],
+    "Data & Caching": [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis Caching & Lockouts",
+      "Prisma ORM",
+      "Mongoose",
+      "Relational Modeling"
+    ],
+    "Infrastructure & Cloud": [
+      "Docker & Containers",
+      "Git & GitHub Actions",
+      "Vercel Deployment",
+      "Linux CLI",
+      "Environment Hardening"
+    ],
+    "Engineering Practices": [
+      "Clean Architecture",
+      "Agile & Sprint Delivery",
+      "State Reconciliation",
+      "API Security & Sanitization",
+      "Zero-Bloat Engineering"
+    ]
+  },
+  "education": [
+    {
+      "institution": "JG University",
+      "location": "Ahmedabad, Gujarat",
+      "degree": "Bachelor of Technology — Information Technology (B.Tech IT)",
+      "period": "2026 — 2029 (Expected)",
+      "badge": "Undergraduate Degree",
+      "description": "Deepening mastery in advanced computing architectures, operating systems, distributed database theory, algorithms, and scalable web engineering.",
+      "highlights": [
+        "Advanced Data Structures & Algorithms",
+        "Distributed Systems & Cloud Computing",
+        "Software Engineering Principles"
+      ]
+    },
+    {
+      "institution": "Sal Institute of Diploma Studies",
+      "location": "Ahmedabad, Gujarat",
+      "degree": "Diploma in Information Technology",
+      "period": "2023 — 2026",
+      "badge": "Distinction Foundation",
+      "description": "Built foundational engineering rigor in programming languages (Java, Python, C), database systems, mathematical foundations, and web application architectures.",
+      "highlights": [
+        "Object-Oriented Programming & Relational Databases",
+        "Full-Stack Web Foundations (HTML/CSS/JS/PHP/SQL)",
+        "Distinction Academic Standing"
+      ]
+    },
+    {
+      "institution": "Swaminarayan Dham International School",
+      "location": "Gandhinagar, Gujarat",
+      "degree": "Secondary School Examination (10th GSEB)",
+      "period": "Completed 2023",
+      "badge": "Secondary Education",
+      "description": "Completed high school with academic focus on Mathematics, Science, and Logical Reasoning, graduating with 70.5% aggregate under GSEB board.",
+      "highlights": [
+        "Core Mathematics & Physical Sciences",
+        "Analytical Problem Solving Base"
+      ]
+    }
+  ],
+  "contact": {
+    "heading": "Start a Conversation",
+    "subheading": "If you have an architectural problem, an unbuilt service, or a database bottleneck—reach out.",
+    "description": "I build practical digital systems from first principles, specializing in deterministic state machines, full-stack web platforms, and data-intensive backends.",
+    "ctaText": "Transmit Dispatch",
+    "email": "prince.patel3628@gmail.com",
+    "location": "Ahmedabad, India • Available for Global Remote Collaboration",
+    "footerPhilosophy": "Simple architectures outlive clever hacks. Built with disciplined minimalism."
+  }
+}
